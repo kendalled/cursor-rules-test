@@ -1,0 +1,46 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Styling Standards
+
+## Colors
+- Use Tailwind's orange-500/600 for primary actions and accents
+- Use slate-700/800 for dark backgrounds
+- Use white/slate-200 for text
+- Maintain high contrast for accessibility
+
+## Container Widths
+- Use max-w-[84rem] for main containers
+- Apply consistent padding: px-4 sm:px-6 lg:px-8
+- Center containers with mx-auto
+
+## Typography
+- Use font-medium for regular text
+- Use font-semibold for headings and important text
+- Follow Tailwind UI typography scale
+- Maintain readable line heights
+
+## Gradients
+- Use bg-gradient-to-r for buttons: from-orange-500 to-orange-600
+- Use hover:from-orange-600 hover:to-orange-700 for button hover states
+- Use bg-gradient-to-br for page backgrounds
+- Maintain consistent gradient directions within sections
+
+## Spacing
+- Account for fixed navbar with pt-24
+- Use consistent gap-8 for major sections
+- Use space-y-6 for stacked elements
+- Maintain breathing room between components
+
+## Interactive Elements
+- Use transition-all duration-300 for smooth animations
+- Add hover:-translate-y-0.5 for subtle button lift
+- Use ring-1 ring-white/5 for subtle borders
+- Add backdrop-blur-sm for translucent overlays
+
+## Responsive Design
+- Use grid-cols-1 md:grid-cols-2 for two-column layouts
+- Ensure mobile-first approach
+- Maintain consistent breakpoints (sm, md, lg)
