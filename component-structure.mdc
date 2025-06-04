@@ -1,5 +1,56 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: false
 ---
+# Component Structure Standards
+
+## Template Structure
+- Use semantic HTML elements
+- Keep template logic minimal
+- Use v-if for conditional rendering
+- Use v-for with :key for lists
+- Maintain clear hierarchy with proper indentation
+
+## Script Setup
+- Use script setup syntax
+- Import dependencies at the top
+- Define props and emits clearly
+- Group reactive state together
+- Keep computed properties pure
+- Place event handlers at the bottom
+
+## Props and Events
+- Use clear, descriptive prop names
+- Define prop types and defaults
+- Use kebab-case in template
+- Use camelCase in script
+- Emit meaningful event names
+
+## State Management
+- Use ref() for primitive values
+- Use reactive() for objects
+- Prefer computed over watchers
+- Keep component state minimal
+- Use props for data flow
+
+## Performance
+- Use v-show for frequent toggles
+- Avoid expensive operations in template
+- Use computed for derived data
+- Lazy load heavy components
+- Keep render functions simple
+
+## Composition
+- Break down complex components
+- Extract reusable logic to composables
+- Keep single responsibility principle
+- Use slots for flexible layouts
+- Maintain clear component boundaries
+
+## Naming Conventions
+- Use PascalCase for component names
+- Use kebab-case for filenames
+- Prefix utility components with Base
+- Use clear, descriptive names
+- Follow Vue style guide recommendations

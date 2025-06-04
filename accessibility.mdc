@@ -1,5 +1,55 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: false
 ---
+# Accessibility Standards
+
+## Semantic HTML
+- Use proper heading hierarchy (h1-h6)
+- Employ semantic elements (nav, main, section)
+- Use lists for grouped content
+- Add landmarks for navigation
+- Include descriptive labels
+
+## ARIA Attributes
+- Add aria-labels where needed
+- Use aria-expanded for toggles
+- Include aria-current for navigation
+- Set aria-hidden appropriately
+- Maintain ARIA best practices
+
+## Color and Contrast
+- Maintain WCAG 2.1 AA standards
+- Ensure sufficient text contrast
+- Don't rely solely on color
+- Use accessible color combinations
+- Test with color blindness tools
+
+## Interactive Elements
+- Ensure keyboard navigation
+- Add focus indicators
+- Make clickable areas large enough
+- Provide hover/focus states
+- Include skip links
+
+## Images and Media
+- Add alt text for images
+- Use descriptive file names
+- Include image descriptions
+- Provide captions where needed
+- Optimize for screen readers
+
+## Forms and Inputs
+- Label all form controls
+- Group related fields
+- Provide clear error messages
+- Include input validation
+- Support keyboard interaction
+
+## Content Structure
+- Use clear headings
+- Keep content scannable
+- Provide consistent navigation
+- Include descriptive links
+- Maintain logical reading order

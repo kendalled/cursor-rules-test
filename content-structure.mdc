@@ -1,5 +1,48 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: false
 ---
+# Content Structure Standards
+
+## Markdown Files
+- Use clear headings with proper hierarchy
+- Include descriptive meta information
+- Keep content focused and organized
+- Use consistent formatting
+- Include relevant keywords
+
+## Military Branch Content
+- Maintain consistent structure across branches
+- Include branch-specific terminology
+- Highlight unique features and traditions
+- Use appropriate insignias and symbols
+- Follow military style guidelines
+
+## Product Descriptions
+- Lead with key benefits
+- Include technical specifications
+- List customization options
+- Mention quality standards
+- Add relevant use cases
+
+## Features Section
+- Use bullet points for clarity
+- Keep descriptions concise
+- Focus on unique selling points
+- Include military-specific features
+- Maintain consistent tone
+
+## Popular Uses
+- Target military audience
+- Include common scenarios
+- Reference unit traditions
+- Mention ceremonial uses
+- List recognition purposes
+
+## Content Organization
+- Group related content together
+- Use consistent section ordering
+- Maintain clear navigation paths
+- Link related content appropriately
+- Follow content hierarchy

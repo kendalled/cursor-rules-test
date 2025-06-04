@@ -1,5 +1,55 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: false
 ---
+# Performance Standards
+
+## Image Optimization
+- Use responsive images
+- Implement lazy loading
+- Optimize image formats
+- Compress assets appropriately
+- Use webp with fallbacks
+
+## Component Loading
+- Implement code splitting
+- Use dynamic imports
+- Lazy load off-screen content
+- Optimize component chunks
+- Minimize initial bundle
+
+## State Management
+- Avoid unnecessary reactivity
+- Use computed properties efficiently
+- Implement proper caching
+- Optimize store actions
+- Minimize state updates
+
+## Rendering Optimization
+- Use v-show for frequent toggles
+- Implement virtual scrolling
+- Optimize v-for directives
+- Use keyed transitions
+- Minimize DOM updates
+
+## Resource Loading
+- Implement route-level code splitting
+- Prioritize critical resources
+- Use preload for key assets
+- Implement proper caching
+- Optimize third-party scripts
+
+## Build Optimization
+- Enable tree shaking
+- Minimize production builds
+- Use modern build tools
+- Implement proper chunking
+- Optimize dependencies
+
+## Monitoring
+- Track core web vitals
+- Monitor performance metrics
+- Implement error tracking
+- Use performance budgets
+- Regular performance audits
